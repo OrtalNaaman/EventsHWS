@@ -1,0 +1,39 @@
+/* div li {
+    margin-block: 5px;
+    height: auto;
+  
+    background-color: rgb(105, 107, 223);
+  } */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+ul {
+  list-style: none;
+  margin: auto;
+  width: 200px;
+}
+
+li {
+  border-radius: 100px;
+  padding: 20px;
+  margin: 1em;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(83, 175, 240);
+}
+
+#lower_li {
+  display: none;
+  background-color: rgba(78, 186, 216, 0.584);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  shape-outside: circle();
+  flex-shrink: 2;
+  margin: 1em;
+}
